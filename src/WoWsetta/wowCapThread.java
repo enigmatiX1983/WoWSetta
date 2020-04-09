@@ -110,85 +110,133 @@ public class wowCapThread implements Runnable
                     //This section begins the case scenarios for the packetDataCode checks which
                     //Denotes race and say/yell
                     //Alliance cases start here
-                    if (Arrays.equals(packetDataCode, allianceCodes[0]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    if (
+						   Arrays.equals(packetDataCode, allianceCodes[0]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Common <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[1]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[1]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Common <yell>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[2]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[2]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Gnomish <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[3]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[3]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Gnomish <yell>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[4]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[4]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Darnassian <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[5]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[5]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Darnassian <yell>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[6]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[6]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Dwarvish <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, allianceCodes[7]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, allianceCodes[7]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Dwarvish <yell>", i);
                         break;
                     }
                     
                     //Horde cases start here
-                    else if (Arrays.equals(packetDataCode, hordeCodes[0]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[0]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Orcish <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[1]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[1]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Orcish <yell>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[2]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[2]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Gutterspeak <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[3]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[3]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Gutterspeak <yell>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[4]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[4]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Troll <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[5]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[5]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Troll <yell>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[6]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[6]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Taurahe <say>", i);
                         break;
                     }
-                    else if (Arrays.equals(packetDataCode, hordeCodes[7]) && Arrays.equals(padding1, padding2) && Arrays.equals(zeroPad, zPad))
-                    {
+                    else if (
+						   Arrays.equals(packetDataCode, hordeCodes[7]) 
+						&& Arrays.equals(padding1, padding2) 
+						&& Arrays.equals(zeroPad, zPad)
+					) {
                         textOutput("Taurahe <yell>", i);
                         break;
                     }
